@@ -1,0 +1,28 @@
+okta:
+  sso:
+    url: "<SET-VALUE>"
+  issuer:
+    url: "<SET-VALUE>"
+  token: "<SET-VALUE>"
+  idp:
+    entity:
+      id: "<SET-VALUE>"
+      local:
+        id: "<SET-VALUE>"
+  registration:
+    id: "<SET-VALUE>"
+  acs:
+    url: "<SET-VALUE>"
+
+camunda:
+  bpm:
+    authorization:
+      enabled: true
+    filter:
+      create: All tasks
+    admin:
+      username: "<SET-VALUE>"
+
+spring:
+  datasource:
+    url: jdbc:h2:file:./camunda-h2-database
